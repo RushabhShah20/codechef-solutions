@@ -1,0 +1,14 @@
+// Problem: Double Rent
+// Link to the problem: https://www.codechef.com/problems/DOUBLERENT
+#include <bits/stdc++.h>
+#define ll long long int
+#define ull unsigned long long int
+using namespace std;
+
+int main()
+{
+    ll n;
+    cin >> n;
+    cout << 2 * n << endl;
+    return 0;
+}
