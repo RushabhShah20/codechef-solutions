@@ -1,0 +1,21 @@
+// Problem: Credit score
+// Link to the problem: https://www.codechef.com/problems/CREDSCORE
+#include <bits/stdc++.h>
+#define ll long long int
+#define ull unsigned long long int
+using namespace std;
+
+int main()
+{
+    ll x;
+    cin >> x;
+    if (x >= 750)
+    {
+        cout << "YES" << endl;
+    }
+    else
+    {
+        cout << "NO" << endl;
+    }
+    return 0;
+}
