@@ -1,5 +1,5 @@
 // Problem: Cloud Watching
-// Link to the problem: https://www.codechef.com/problems/MORECOOK
+// Link to the problem: https://www.codechef.com/problems/CWCTH
 #include <bits/stdc++.h>
 #define ll long long int
 #define ull unsigned long long int
