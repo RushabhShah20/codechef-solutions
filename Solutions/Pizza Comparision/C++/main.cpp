@@ -1,0 +1,37 @@
+// Problem: Pizza Comparision
+// Link to the problem: https://www.codechef.com/problems/PIZZACOMP
+#include <bits/stdc++.h>
+#define ll long long int
+#define ull unsigned long long int
+using namespace std;
+
+void solve()
+{
+    ll a, b;
+    cin >> a >> b;
+    if (a * 225 > b * 100)
+    {
+        cout << "Large" << endl;
+    }
+    else if (a * 225 < b * 100)
+    {
+        cout << "Small" << endl;
+    }
+    else
+    {
+        cout << "Equal" << endl;
+    }
+}
+
+int main()
+{
+    // freopen("input.txt", "r", stdin);
+    // freopen("output.txt", "w", stdout);
+    ll t;
+    cin >> t;
+    while (t--)
+    {
+        solve();
+    }
+    return 0;
+}
