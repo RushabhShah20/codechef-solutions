@@ -1,5 +1,5 @@
-// Problem: Odd Sum
-// Link to the problem: https://www.codechef.com/problems/ODDSUM
+// Problem: Rectangle
+// Link to the problem: https://www.codechef.com/problems/RECTANGL
 #include <bits/stdc++.h>
 #define ll long long int
 #define ull unsigned long long int
@@ -7,9 +7,16 @@ using namespace std;
 
 void solve()
 {
-    ll n;
-    cin >> n;
-    cout << 1 + ((n - 2) * (n - 1)) << endl;
+    ll a, b, c, d;
+    cin >> a >> b >> c >> d;
+    if (a == b && c == d || a == c && b == d || a == d && b == c)
+    {
+        cout << "YES" << endl;
+    }
+    else
+    {
+        cout << "NO" << endl;
+    }
 }
 
 int main()
