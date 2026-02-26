@@ -9,7 +9,7 @@ void solve()
 {
     string s;
     cin >> s;
-    ll n = s.size();
+    const ll n = s.size();
     map<char, ll> x, y;
     for (ll i = 0; i < n / 2; i++)
     {
@@ -30,6 +30,9 @@ int main()
 {
     // freopen("input.txt", "r", stdin);
     // freopen("output.txt", "w", stdout);
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
     ll t;
     cin >> t;
     while (t--)
