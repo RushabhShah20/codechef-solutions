@@ -2,8 +2,6 @@
 // Problem: Array - Addition
 // Link to the problem: https://www.codechef.com/problems/PREP05
 import java.util.*;
-import java.lang.*;
-import java.io.*;
 
 class Codechef {
     public static void solve(Scanner in) {
