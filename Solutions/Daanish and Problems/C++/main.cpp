@@ -7,7 +7,6 @@ using namespace std;
 
 void solve()
 {
-
     vector<ll> a(10);
     for (ll i = 0; i < 10; i++)
     {
