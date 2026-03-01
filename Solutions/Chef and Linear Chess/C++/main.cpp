@@ -1,5 +1,5 @@
 // Problem: Chef and Linear Chess
-// Link to the problem: https://www.codechef.com/problems/SUBTASK
+// Link to the problem: https://www.codechef.com/problems/LINCHESS
 #include <bits/stdc++.h>
 #define ll long long int
 #define ull unsigned long long int
