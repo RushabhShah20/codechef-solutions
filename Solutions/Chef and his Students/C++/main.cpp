@@ -1,0 +1,49 @@
+// Problem: Chef and his Students
+// Link to the problem: https://www.codechef.com/problems/CHEFSTUD
+#include <bits/stdc++.h>
+#define ll long long int
+#define ull unsigned long long int
+using namespace std;
+
+void solve()
+{
+    string s;
+    cin >> s;
+    const ll n = s.size();
+    ll ans = 0;
+    for (ll i = 0; i < n; i++)
+    {
+        if (s[i] == '<')
+        {
+            s[i] = '>';
+        }
+        else if (s[i] == '>')
+        {
+            s[i] = '<';
+        }
+    }
+    for (ll i = 0; i < n - 1; i++)
+    {
+        if (s[i] == '>' && s[i + 1] == '<')
+        {
+            ans++;
+        }
+    }
+    cout << ans << endl;
+}
+
+int main()
+{
+    // freopen("input.txt", "r", stdin);
+    // freopen("output.txt", "w", stdout);
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
+    ll t;
+    cin >> t;
+    while (t--)
+    {
+        solve();
+    }
+    return 0;
+}
