@@ -1,0 +1,37 @@
+// Problem: Arranging Cup-cakes
+// Link to the problem: https://www.codechef.com/problems/RESQ
+#include <bits/stdc++.h>
+#define ll long long int
+#define ull unsigned long long int
+using namespace std;
+
+void solve()
+{
+    ll n;
+    cin >> n;
+    ll ans = LLONG_MAX;
+    for (ll i = 1; i * i <= n; i++)
+    {
+        if (n % i == 0)
+        {
+            ans = min(ans, n / i - i);
+        }
+    }
+    cout << ans << endl;
+}
+
+int main()
+{
+    // freopen("input.txt", "r", stdin);
+    // freopen("output.txt", "w", stdout);
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
+    ll t;
+    cin >> t;
+    while (t--)
+    {
+        solve();
+    }
+    return 0;
+}
